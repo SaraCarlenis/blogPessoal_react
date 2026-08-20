@@ -64,6 +64,7 @@ function Cadastro() {
 
     // Mudar estado do carregamento (animações na tela)
     setIsloading(true);
+    
     // Depois que valida a senha, começa o processo do envio da requisição
     try{
 
