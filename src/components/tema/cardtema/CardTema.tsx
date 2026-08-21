@@ -21,7 +21,8 @@ import type Tema from '../../../models/Tema'
                     <button>Editar</button>
                 </Link>
  
-                <Link to='' className='text-slate-100 bg-red-400 hover:bg-red-700 w-full
+                <Link to={`/deletarTema/${tema.id}`}
+                 className='text-slate-100 bg-red-400 hover:bg-red-700 w-full
                     flex items-center justify-center'>
                     <button>Deletar</button>
                 </Link>
